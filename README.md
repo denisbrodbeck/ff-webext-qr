@@ -1,1 +1,1 @@
-ff-webext-qr
+# A mighty fine QR code displayer

@@ -1,0 +1,17 @@
+{
+  "description": "A mighty fine QR code displayer",
+  "manifest_version": 2,
+  "name": "QR",
+  "version": "1.0",
+  "homepage_url": "https://github.com/denisbrodbeck/ff-webext-qr",
+  "icons": {
+    "48": "icons/qrcode.svg",
+    "96": "icons/qrcode.svg"
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "icons/qrcode.svg",
+    "default_title": "QR",
+    "default_popup": "popup/render.html"
+  }
+}
