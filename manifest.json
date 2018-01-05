@@ -1,17 +1,25 @@
 {
-  "description": "A mighty fine QR code displayer",
   "manifest_version": 2,
-  "name": "QR",
+  "name": "__MSG_extensionName__",
+  "short_name": "QR Code Gen",
+  "description": "__MSG_extensionDescription__",
   "version": "1.0",
+  "author": "Denis Brodbeck",
   "homepage_url": "https://github.com/denisbrodbeck/ff-webext-qr",
   "icons": {
     "48": "icons/qrcode.svg",
     "96": "icons/qrcode.svg"
   },
+  "default_locale": "en",
   "permissions": ["activeTab"],
   "browser_action": {
-    "default_icon": "icons/qrcode.svg",
+    "browser_style": true,
     "default_title": "QR",
-    "default_popup": "popup/render.html"
+    "default_popup": "popup/render.html",
+    "theme_icons": [{
+      "dark": "icons/qrcode.svg",
+      "light": "icons/qrcode_light.svg",
+      "size": 48
+    }]
   }
 }

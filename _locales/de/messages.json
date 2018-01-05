@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "Ein echt starker QR Code Generator",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Ein echt starker QR Code Generator — keine Werbung, kein Track, keine externe API Aufrufe, keine speziellen Berechtigungen — kein Unsinn.",
+    "description": "Description of the extension."
+  },
+  "btnRender": {
+    "message": "Rendern",
+    "description": "Text of the render button."
+  },
+  "errDescription": {
+    "message": "<p>Kann keinen QR Code von diesem Text erstellen.</p><p>Bitte einen anderen Text nutzen.</p>",
+    "description": "Text of the error view."
+  },
+  "btnOptions": {
+    "message": "Optionen",
+    "description": "Text of the options button."
+  },
+  "optAutoDetect": {
+    "message": "Automatisch",
+    "description": "Text of the first element type number."
+  }
+}

@@ -7,12 +7,131 @@
 </head>
 
 <body>
-  <div id="error-content" class="hidden">
-    <p>Can't create QR code from this URL.</p>
-    <p>Try a different page or check the error logs.</p>
+
+  <div id="panel-error-id" class="panel hidden">
+    <div class="panel-section panel-section-header">
+      <div class="text-section-header">
+        <div id="panel-error-description-id">
+          <p>Can't create QR code from this text.</p>
+          <p>Try a different text.</p>
+        </div>
+        <p id="error-message-id"></p>
+      </div>
+    </div>
   </div>
-  <div id="popup-content">
-    <div id="qrcode-placeholder" class="qrcode">…</div>
+
+  <div id="panel-content-id" class="panel">
+
+    <div class="panel-section panel-section-formElements">
+      <div class="panel-formElements-item browser-style">
+        <textarea class="browser-style" placeholder="https://www.example.com" id="input-id" autocapitalize="none" autocomplete="off"
+          autofocus required></textarea>
+      </div>
+    </div>
+
+    <div class="panel-section-separator"></div>
+
+    <div id="section-main-id">
+
+      <div class="panel-section panel-section-header no-border-bottom">
+        <div id="qrcode-placeholder-id" class="image-section-header box-shadow"></div>
+      </div>
+
+      <div class="panel-section panel-section-footer">
+        <div id="show-options-id" class="panel-section-footer-button">Options</div>
+        <div class="panel-section-footer-separator"></div>
+        <div id="create-qrcode-id" class="panel-section-footer-button default">Render</div>
+      </div>
+
+    </div>
+
+    <div id="section-options-id" class="hidden">
+
+      <div class="panel-section panel-section-formElements">
+
+        <div class="panel-formElements-item panel-formElements-item--samewidth">
+          <label for="typenumber-id" class="browser-style browser-style-label">Type Number:</label>
+          <select id="typenumber-id" class="icon browser-style">
+            <option value="0" selected>Auto Detect</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+          </select>
+        </div>
+
+        <div class="panel-formElements-item panel-formElements-item--samewidth">
+          <label for="ecc-id" class="browser-style browser-style-label">Error Correction Level:</label>
+          <select id="ecc-id" class="icon browser-style">
+            <option value="L" selected>L (7%)</option>
+            <option value="M">M (15%)</option>
+            <option value="Q">Q (25%)</option>
+            <option value="H">H (30%)</option>
+          </select>
+        </div>
+
+        <div class="panel-formElements-item panel-formElements-item--samewidth">
+          <label for="mode-id" class="browser-style browser-style-label">Mode:</label>
+          <select id="mode-id" class="icon browser-style">
+            <option value="Numeric">Numeric</option>
+            <option value="Alphanumeric">Alphanumeric</option>
+            <option value="Byte" selected>Byte</option>
+            <option value="Kanji">Kanji</option>
+          </select>
+        </div>
+
+        <div class="panel-formElements-item panel-formElements-item--samewidth">
+          <label for="mb-id" class="browser-style browser-style-label">Multibyte:</label>
+          <select id="mb-id" class="icon browser-style">
+            <option value="default">None</option>
+            <option value="SJIS">SJIS</option>
+            <option value="UTF-8" selected>UTF-8</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="panel-section panel-section-footer">
+        <div id="update-qrcode-id" class="panel-section-footer-button default">Render</div>
+      </div>
+    </div>
+
   </div>
   <script src="qrcode.js"></script>
   <script src="render.js"></script>
