@@ -1,1 +1,1 @@
-# A mighty fine QR code displayer
+# A mighty fine QR code generator
