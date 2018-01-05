@@ -46,11 +46,11 @@ These (optional) features were deliberately not implemented:
 
 ## Credits
 
-The icons are taken from the Font Awesome 5 iconset, and used under the terms of its license (https://fontawesome.com/license), with a link back to the website: https://fontawesome.com/icons.
+The icons are taken from the free Font Awesome 5 iconset, and used under the terms of its license (https://fontawesome.com/license), with a link back to the website: https://fontawesome.com/icons.
 
 This extensions uses the excellent [qrcode-generator](https://github.com/kazuhikoarase/qrcode-generator) library from [Kazuhiko Arase](http://www.d-project.com/).
 
-The word "QR Code" is a registered trademark of [DENSO WAVE INCORPORATED] (http://www.qrcode.com/en/faq.html).
+The word "QR Code" is a registered trademark of [DENSO WAVE INCORPORATED](http://www.qrcode.com/en/faq.html).
 
 ## License
 
